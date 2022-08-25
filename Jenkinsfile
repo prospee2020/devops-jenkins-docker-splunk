@@ -30,7 +30,7 @@ node {
         }
     }
 
-    /*
+    /
     stage ('Docker Push') {
         docker.withTool('docker-latest') {
             withCredentials([usernamePassword(credentialsId: 'dockerhub',
@@ -41,6 +41,6 @@ node {
             }            
         }
     }
-    */
+    /
 }
 //END-OF-SCRIPT
